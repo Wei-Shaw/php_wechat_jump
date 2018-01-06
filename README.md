@@ -2,6 +2,7 @@
 >适用于Android-Win用户（买不起mac和iPhone）
 
 ## 环境部署
+- 一键启动方式（无须配置环境）请转移至 [PHP一键开始微信『跳一跳』](https://github.com/phpxiaowei/php_wechat_jump/releases)，经典方式接往下阅读。
 - [ADB](http://img.wm07.cn/UniversalAdbDriverSetup.msi) 直接下载安装即可，然后把adb.exe的目录添加至环境变量
 - [PHP](http://windows.php.net/download#php-7.2)（老鸟略过，需开启gd2以及php加入环境变量） 建议7.2版本,下载解压，把php.exe所在的目录添加至环境变量
 - 需要在php.ini中把extension_dir的值改为 "ext" 把extension=php_gd2.dll前面的分号 ; 去掉，保存OK。
