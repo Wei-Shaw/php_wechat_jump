@@ -20,9 +20,9 @@ class auto
 	public static function start()
 	{
 		header("content-type:text/html;charset=GB2312");
-		print("请确保打开跳一跳并【开始游戏】后再用本程序，确定开始？ \n【y/n】 ");
+		print("请确保打开跳一跳并【开始游戏】，确定开始？ \n【y/n】 ");
 		strcasecmp(trim(fgets(STDIN)), 'y') && exit;
-		print("程序版本号:" . self::$version."\n");
+		print("版本号:" . self::$version."\n");
 		self::init();
 		$sum = 0;
 		$next_reset = mt_rand(3, 10);
@@ -33,7 +33,7 @@ class auto
 			self::jump();
 			$sum ++;
 			if ($sum == $next_reset) {
-				print("已经连续跳了" . $sum."下,休息".$next_reset_time."s\n");
+				print("已经连续跳了" . $sum."下,暂停".$next_reset_time."s\n");
 				sleep($next_reset_time);
 				$sum = 0;
 				$next_reset = mt_rand(30, 100);
