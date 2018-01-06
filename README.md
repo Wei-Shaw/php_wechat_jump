@@ -1,5 +1,5 @@
 # PHP玩微信『跳一跳』
->适用于Android-Win用户（买不起mac和iPhone）
+>适用于Android-Win用户（买不起mac和iPhone无法提供iPhone版）
 
 ## 环境部署
 - 一键启动**快速方式**（无须配置环境，**强烈推荐**）请转移至 [PHP一键开始微信『跳一跳』](https://github.com/phpxiaowei/php_wechat_jump/releases)，经典方式接往下阅读。
