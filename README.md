@@ -25,7 +25,7 @@
 - 如果出现 类似下面信息表示连接成功
 ```bash
 List of devices attached
-6934dc33    device
+9ab8ee5a       device
 ```
 - 如果没有说明设备未正常连接，数据线与USB接口也可能导致该问题，如果5037端口被占用可能导致adb启动失败，请完全关闭手机助手等软件
 
