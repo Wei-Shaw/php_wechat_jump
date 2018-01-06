@@ -33,4 +33,4 @@ List of devices attached
 - 遵循Apache-2.0 协议
 - 严禁用于商业用途
 
->算法基于[python 微信跳一跳辅助](https://github.com/wangshub/wechat_jump_game)
+>算法借鉴[python 微信跳一跳辅助](https://github.com/wangshub/wechat_jump_game)
