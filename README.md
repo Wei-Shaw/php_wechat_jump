@@ -21,7 +21,7 @@
 ## ADB安装的啰嗦
 - 安装完成并加入了环境变量之后
 - 手机连接（同上）
-- 打开cmd.exe输入命令：  ```bash adb devices```
+- 打开cmd.exe输入命令：  ``` adb devices ```
 - 如果出现 类似下面信息表示连接成功
 ```bash
 List of devices attached
